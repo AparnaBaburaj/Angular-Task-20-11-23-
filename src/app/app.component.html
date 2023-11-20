@@ -1,0 +1,25 @@
+<div class="bx-navbar">
+  <div class="bx-fhalf">INDOCTRINATION</div>
+  <div class="bx-shalf">
+  <!--a href="" >HOME</a>
+  <a href="About">ABOUT</a>
+  <a href="courses">COURSES</a-->
+
+    <a routerLink="">Home</a>
+    <a routerLink="About">About Us</a>
+    <a [routerLink]="['courses','FRONT-END DEVELOPMENT']">Course1</a>
+    <a [routerLink]="['courses','BACK-END DEVELOPMENT']">Course2</a>
+    <a (click)="courseclick('DATA ENGINEERING')">Course3</a>
+
+  
+ 
+</div>
+</div>
+<router-outlet></router-outlet>
+
+
+
+  <footer class="bx-footer">
+    <p>Author: Aparna TB<br>
+    copyright 	&#169; 2023 Aparna</p>
+  </footer>
